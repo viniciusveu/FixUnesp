@@ -1,26 +1,34 @@
 import { StyleSheet } from 'react-native'
 
+
 const styles = StyleSheet.create({
-    background: {
-        flex: 1,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderWidth: 18,
-        borderColor: '#fff',
+    container: {
+        flex: 1
     },
 
     logoContainer: {
+        flex: 1,
+        flexDirection: "row",
+        alignSelf: "center",
+        marginTop: 30,
+        resizeMode: "contain",
         width: 120,
-        height: 120,
-        marginTop: 350
-        
     },
 
     loginContainer: {
-        justifyContent: "space-between",
-        margin: 50,
+        flex: 2,
+        borderLeftWidth: 30,
+        borderColor: "transparent"
     },
+
+    helpContainer: {
+        flex: 1,
+        backgroundColor: "#3339"
+    },
+
+    login: {
+        fontFamily: font
+    }
 
 })
 
